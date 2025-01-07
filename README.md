@@ -1,13 +1,21 @@
 ## Machine Learning On EC2
+
 The dataset to train my model is MNIST handwritten digits database. Train the CNN model to recognize the number in each picture. 
+
 ##### Task 1. Build a CNN model runs on a single machine using PyTorch
 
 Step 1: Write the python code, import libraries
+
 Step 2: Move CNNModel.py from local to EC2 by command: ```scp -i```
+
 Step 3:  Connect to EC2 by command: ```ssh -i ~/Downloads/"replace-to-your-pem-key" ubuntu@ec2XXXXXX.compute-1.amazonaws.com```
+
 Step 4: Verify the file by command: ```ls```
+
 You can get:CNNModel.py  None  README
+
 Step 5: Create virtual environment “pytorch” and active it
+
 Step 5a: Install python3 by command: ```sudo apt-get install python3-venv```
 Step 5b: Creates a new virtual environment named "pytorch" for Python 3 by command: ```python3 -m venv pytorch```
 Step 5c: Active it by command: ```source pytorch/bin/activate```
