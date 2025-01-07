@@ -19,7 +19,7 @@ Step 8: Run the python code by command: ```python3 CNNModel.py```
 Step 1: Stop the instance then go to instance settings and change
 instance type to c5.xlarge which is 4vCPU 8G Memory. Then runs the
 instance.
-Step 2:Connect to EC2 in terminal by command: ```ssh -i
+Step 2:Connect to EC2 in terminal by command: ```ssh -i```
 ~/Downloads/"replace-to-your-pem-key" ubuntu@ec2-replace-to-your-own-one.compute-1.amazonaws.com
 Step 3: Verify file in this instance by command: ```ls```
 Step 4: Install docker by command: ```sudo apt install docker.io```
